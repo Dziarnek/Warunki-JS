@@ -5,7 +5,7 @@ var a = 1,
     b = 1,
     result = 1;
 
-    a = prompt("Podaj wartość 'a'");
+a = prompt("Podaj wartość 'a'");
     while (isNaN(a)) {
         a = prompt(a + " to nie liczba, podaj watrość 'a'");
     }
